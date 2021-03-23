@@ -9,4 +9,5 @@ public class Child {
     private String name;
     private Integer age;
     private String fatherName;
+    private String height;
 }
