@@ -1,0 +1,26 @@
+<template>
+  <div class="container">
+    <div class="textContainer">
+      <span class="iconfont icon-renyuanguanli" style="font-size: 20px" />
+      {{nodeName}}
+    </div>
+  </div>
+</template>
+
+<script>
+import "../assets/icon/iconfont.css";
+export default {
+  name: "task",
+  props: {
+    nodeName: null
+  }
+};
+</script>
+
+<style  lang="scss" scoped>
+@import "~../assets/style/node.scss";
+.container {
+  border: 1px solid #909399;
+  background: #909399;
+}
+</style>
